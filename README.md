@@ -4,7 +4,7 @@ Projeto de análise de dados da temporada 2024/25 do Tottenham Hotspur, desenvol
 
 ## 📊 Dashboard
 
-![Tottenham 2024/25 Dashboard](tottenhamdashboard.png)
+![Tottenham 2024/25 Dashboard](Tottenham%20Dashboard.png)
 
 ## 📌 Sobre o projeto
 
