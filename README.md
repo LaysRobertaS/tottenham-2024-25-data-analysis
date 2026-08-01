@@ -2,15 +2,15 @@
 
 Projeto de análise de dados da temporada 2024/25 do Tottenham Hotspur, desenvolvido utilizando Power BI.
 
-## 📊 Dashboard
+## Dashboard
 
 ![Tottenham 2024/25 Dashboard](Tottenham%20Dashboard.png)
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Este projeto apresenta uma análise do desempenho do Tottenham Hotspur durante a temporada 2024/25, considerando todas as competições disputadas pelo clube.
 
-## 📈 Principais indicadores
+## Principais indicadores
 
 - Total de gols
 - Total de jogos
@@ -21,25 +21,25 @@ Este projeto apresenta uma análise do desempenho do Tottenham Hotspur durante a
 - Jogos disputados por mês
 - Principais artilheiros da temporada
 
-## 🛠️ Ferramentas utilizadas
+## Ferramentas utilizadas
 
 - Power BI
 - Power Query
 - DAX
 
-## 📚 Fonte dos dados
+## Fonte dos dados
 
 Os dados utilizados no projeto foram coletados a partir do FBref.
 
-## 🎯 Objetivo
+## Objetivo
 
 O objetivo do projeto é aplicar conceitos de análise de dados, tratamento de informações, construção de indicadores e visualização de dados utilizando um caso real de uma temporada esportiva.
 
-## 🚀 Próximas etapas
+## Próximas etapas
 
-- [ ] Criar banco de dados no SQL Server
-- [ ] Estruturar tabelas de fatos e dimensões
-- [ ] Importar dados do FBref para o SQL Server
-- [ ] Criar consultas SQL para análise
-- [ ] Conectar o Power BI diretamente ao SQL Server
+- Criar banco de dados no SQL Server
+- Estruturar tabelas de fatos e dimensões
+- Importar dados do FBref para o SQL Server
+- Criar consultas SQL para análise
+- Conectar o Power BI diretamente ao SQL Server
 - [ ] Reestruturar o dashboard utilizando SQL Server como fonte
