@@ -42,4 +42,5 @@ O objetivo do projeto é aplicar conceitos de análise de dados, tratamento de i
 - Importar dados do FBref para o SQL Server
 - Criar consultas SQL para análise
 - Conectar o Power BI diretamente ao SQL Server
-- [ ] Reestruturar o dashboard utilizando SQL Server como fonte
+- Reestruturar o dashboard utilizando SQL Server como fonte
+
