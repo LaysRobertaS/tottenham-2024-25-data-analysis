@@ -1,0 +1,55 @@
+-- Validando as consultas 
+SELECT
+    COUNT(*) AS total_jogos,
+    COUNT(id_competicao) AS 'jogos_com_competicao',
+    COUNT(id_oponente) AS 'jogos_com_oponente',
+    COUNT(id_data) AS 'jogos_com_data'
+FROM fjogos
+
+SELECT
+    COUNT(*) AS total_jogadores,
+    COUNT(id_jogador) AS 'jogadores_com_id'
+FROM fartilharia
+
+SELECT
+    resultado,
+    COUNT(*) AS 'quantidade_jogos'
+FROM fjogos
+GROUP BY resultado
+
+SELECT
+    SUM(gols_tottenham) AS 'total_gols'
+FROM fjogos
+
+SELECT
+    COUNT(*) AS 'total_jogos'
+FROM fjogos
+
+SELECT
+    SUM(gols_adversario) AS 'gols_sofridos'
+FROM fjogos
+
+-- Gols que os Tottenham marcou em cada competição
+SELECT
+    competicao,
+    SUM(gols_tottenham) AS 'total_gols'
+FROM fjogos
+GROUP BY competicao
+ORDER BY total_gols DESC
+
+-- Vitóris, empates e derrotas por competição
+SELECT
+    competicao,
+    resultado,
+    COUNT(*) AS 'quantidade_jogos'
+FROM fjogos
+GROUP BY competicao, resultado
+ORDER BY competicao, resultado
+
+SELECT
+    resultado,
+    COUNT(*) AS 'quantidade_jogos',
+    FORMAT(COUNT(*) * 1.0 / SUM(COUNT(*)) OVER(), '0.00%') AS 'percentual'
+FROM fjogos
+GROUP BY resultado
+ORDER BY COUNT (*) ASC
