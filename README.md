@@ -1,18 +1,13 @@
 # Tottenham Hotspur 2024/25 — Business Intelligence Dashboard
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-512BD4?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-
 ---
 
-# 📊 Dashboard
+# Dashboard
 
 <p align="center">
 
-<img src="Images/dashboard.png" width="100%">
+<img width="1286" height="731" alt="image" src="https://github.com/user-attachments/assets/35f67a4e-ff0d-4c13-bf5f-0fb97314617a" />
+
 
 </p>
 
@@ -62,39 +57,9 @@ Tabela Fato              Tabelas Dimensão
                   ▼
           Dashboard Final
 ```
-
 ---
 
-# Estrutura do Projeto
-
-```
-tottenham-2024-25-data-analysis
-
-│
-├── Dashboard
-│     ├── Tottenham Dashboard.pbix
-│
-├── SQL
-│     ├── Create Database.sql
-│     ├── Create Tables.sql
-│     ├── Inserts.sql
-│     ├── Consultas.sql
-│
-├── Data
-│     ├── Jogos.csv
-│     ├── Artilharia.csv
-│
-├── Images
-│     ├── dashboard.png
-│     ├── modelo.png
-│     ├── sqlserver.png
-│
-└── README.md
-```
-
----
-
-# 🗄 Modelagem do Banco de Dados
+# Modelagem do Banco de Dados
 
 O projeto foi estruturado utilizando modelagem dimensional.
 
@@ -117,7 +82,8 @@ O projeto foi estruturado utilizando modelagem dimensional.
 
 <p align="center">
 
-<img src="Images/modelagem.png" width="90%">
+<img width="1296" height="637" alt="image" src="https://github.com/user-attachments/assets/f2b516dd-074f-4d62-a76c-8934ded19503" />
+
 
 </p>
 
@@ -137,7 +103,8 @@ Foram desenvolvidas consultas para:
 
 <p align="center">
 
-<img src="Images/sqlserver.png" width="90%">
+<img width="1197" height="430" alt="image" src="https://github.com/user-attachments/assets/3228f39b-2d5b-4b58-8380-3d5ab12f8ce0" />
+
 
 </p>
 
@@ -149,19 +116,19 @@ O dashboard apresenta indicadores como:
 
 ✅ Jogos
 
+✅ Gols Marcados
+
+✅ Gols Sofridos
+
 ✅ Vitórias
 
 ✅ Empates
 
 ✅ Derrotas
 
-✅ Gols Marcados
+✅ Gols por Jogo
 
-✅ Gols Sofridos
-
-✅ Média de Gols
-
-✅ Resultados por mês
+✅ Resultados Temporada
 
 ✅ Artilheiros
 
@@ -169,22 +136,9 @@ O dashboard apresenta indicadores como:
 
 ---
 
-# Dashboard
-
-### Visão Geral
-
-<p align="center">
-
-<img src="Images/dashboard.png" width="100%">
-
-</p>
-
----
-
 # Tecnologias
 
 - SQL Server
-- SQL
 - Power BI
 - Power Query
 - DAX
